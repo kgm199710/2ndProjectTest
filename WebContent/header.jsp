@@ -3,7 +3,7 @@
 <%	 %>
 <div class="header_wrapper">
 	<div class="header_column">
-		<a href="http://localhost:8081/Lecfly_Project/lecfly_home.jsp"> <i class="fas fa-basketball-ball">LECFLY</i>
+		<a href="lecfly_home.jsp"> <i class="fas fa-basketball-ball">LECFLY</i>
 		</a>
 	</div>
 	<div class="header_column">

@@ -10,11 +10,6 @@ a:hover{
     color: orange;
 }
 
-body{
-    border: 1px solid black;
-    width: 1050px;
-    min-height: 700px;
-}
 
 #top{
     width: 990px;
