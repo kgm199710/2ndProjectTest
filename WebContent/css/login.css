@@ -1,0 +1,77 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    border-bottom: 1px solid aqua;
+    color: aqua;
+}
+
+
+
+body{
+	margin-top: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: 450px;
+}
+#top{
+    margin: auto;
+    padding: 30px 30px 0 30px;
+}
+#title{
+    margin: auto;
+    padding-top: 30px;
+}
+#sub_title{
+    padding-top: 30px;
+}
+
+#middle{
+    margin: 25px;
+}
+#login, #pw{
+    font-size: 1.5em;
+    margin: 5px;
+}
+#login{
+    
+}
+#pw{
+    
+}
+#info{
+    min-width: 250px;
+    display: inline-block;
+    font-size: 12px;
+}
+#find_id_pw{
+    float: left;
+}
+#register{
+    float: right;
+}
+
+#bottom{
+    
+}
+#login_btn{
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;   
+    background-color: orange;
+}
+#login_btn:hover{
+    background-color: aqua;
+}
+#login_btn a:hover{
+	color: black;
+}
+
+

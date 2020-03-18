@@ -1,0 +1,148 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid orange;
+    color: orange;
+}
+
+body{
+    border: 1px solid black;
+    width: 1050px;
+    min-height: 700px;
+}
+
+#top{
+    width: 990px;
+    height: 40px;
+    margin: 30px auto;
+}
+.title{
+    display: inline-block;
+}
+.top_right{
+    float: right;
+    padding-top: 10px;
+}
+
+#middle{
+    
+}
+#mb{
+    margin: 15px 45px 45px 45px;
+    height: 150px;
+    display: inline-block;
+}
+#pic, #paint{
+    float: left;
+}
+#pic{
+    border: 1px solid black;
+}
+#paint{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 340px;
+    height: 150px;
+	text-align: center;
+}
+#paint div{
+	padding: 50px 20px 20px 20px;
+    display: inline-block;
+}
+#paint div img:hover{
+	border: 1px solid orange;
+}
+#paint_heart{
+	z-index: 1;
+	text-align: center;
+    width: 340px;
+    height: 150px;
+}
+#paint_heart div{
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	padding: 50px 20px 20px 20px;
+	display: inline-block;
+}
+#info{
+    border: 1px solid black;
+    width: 466px; /*450px가 맞지만 일단 임시로 보더들만큼 뻄*/
+    height: 150px;
+    float: right;
+}
+.mb_info{
+    margin: 20px 15px 10px 15px;
+}
+#have_ticket{
+	background-color: orange;
+}
+#menu{
+    height: 70px;
+    width: 1050px;
+    list-style: none;
+    text-align: center;
+}
+#menu li{
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+
+#bottom{
+    
+}
+#bottom h2{
+	margin-left: 30px;
+}
+#lec_ing, #lec_showen, #lec_reco{
+    display: inline-block;
+    height: 440px;
+    width: 930px;
+    margin: 0 60px 0 60px;
+    text-align: center;
+}
+#lec_ing{
+    
+}
+#lec_showen{
+    
+}
+#lec_reco{
+    
+}
+.lec, .lec_img, .lec_des .lec_title{
+    width: 300px;   /*임시로 사이즈 지정 후에 260으로 바꿔야됨.*/;
+    margin: 0px auto;
+}
+.lec{
+    border: 1px solid black;
+    height: 170px;
+    /*margin: 20px;*/
+    display: inline-block;
+}
+.lec_img{
+    border: 1px solid black;
+    height: 200px;
+}
+.lec_title{
+    border: 1px solid black;
+    height: 70px
+    font-size: 18px;
+}
+.lec_des{
+    border: 1px solid black;
+    height: 70px;
+}
+
+
+
+
+
+
+

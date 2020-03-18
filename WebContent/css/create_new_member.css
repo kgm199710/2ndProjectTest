@@ -1,0 +1,68 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+label{
+    font-size: 18px;
+}
+li label{
+    padding-bottom: 10px;
+}
+input{
+    width: 500px;
+    font-size: 18px;
+}
+
+body{
+    width: 500px;
+    margin-top: 30px;
+}
+
+div{
+    margin: 10px;
+}
+
+#pro_pic{
+    margin: 10px;
+}
+#pic{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+#name{
+    
+}
+#birthday{
+    
+}
+#gender{
+    
+}
+#login{
+    
+}
+#pw{
+    
+}
+#ph_number{
+    
+}
+#email{
+    
+}
+#adress{
+    
+}
+#submit_btn{
+    
+}
