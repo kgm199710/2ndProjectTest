@@ -1,16 +1,11 @@
-*{
-    margin: 0px auto;
-    padding: 0px;
-}
+
 a{
     text-decoration: none;
 }
-a:hover{
+.mypage_a:hover{
     border-bottom: 1px solid orange;
     color: orange;
 }
-
-
 #top{
     width: 990px;
     height: 40px;
@@ -48,6 +43,10 @@ a:hover{
 #paint div{
 	padding: 50px 20px 20px 20px;
     display: inline-block;
+    height: 40px;
+}
+#paint div img{
+	border: 1px solid white;
 }
 #paint div img:hover{
 	border: 1px solid orange;
@@ -134,7 +133,16 @@ a:hover{
     border: 1px solid black;
     height: 70px;
 }
-
+.top_side h3{
+	float: left;
+	font-size: 20px;
+	margin-left: 60px;
+	margin-bottom: 30px;
+}
+.top_side div{
+	float: right;
+	margin-right: 60px;
+}
 
 
 

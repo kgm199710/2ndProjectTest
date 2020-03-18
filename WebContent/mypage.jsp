@@ -5,8 +5,8 @@
 <div id="top">
     <h2 class="title">마이페이지</h2>
     <div class="top_right">
-        <a href="" style="padding: 0 10px 0 10px;">장바구니</a>
-        <a href="create_new_member.jsp" style="padding: 0 10px 0 10px;">프로필수정 ></a>
+        <a class="mypage_a" href="#" style="padding: 0 10px 0 10px;">장바구니</a>
+        <a class="mypage_a" href="#" style="padding: 0 10px 0 10px;">프로필수정 ></a>
     </div>
 </div>
 <div id="middle">
@@ -32,18 +32,20 @@
         </div>
     </div>
     <ol id="menu">
-        <li><a href="">수강중인 강의</a></li>
-        <li><a href="">찜하기</a></li>
-        <li><a href="">좋아요</a></li>
-        <li><a href="">이용권</a></li>
-        <li><a href="">구매내역</a></li>
-        <li><a href="">문의내역</a></li>
-        <li><a href="">고객센터</a></li>
+        <li><a class="mypage_a" href="">수강중인 강의</a></li>
+        <li><a class="mypage_a" href="">찜하기</a></li>
+        <li><a class="mypage_a" href="">좋아요</a></li>
+        <li><a class="mypage_a" href="">이용권</a></li>
+        <li><a class="mypage_a" href="">구매내역</a></li>
+        <li><a class="mypage_a" href="">문의내역</a></li>
+        <li><a class="mypage_a" href="">고객센터</a></li>
     </ol>
 </div>
 <div id="bottom">
+    	<div class="top_side">
+	    	<h3>수강중인 강의</h3>
+    	</div>
     <div id="lec_ing">
-    	<h3>수강중인 강의</h3>
         <div class="lec">
             <div class="lec_img"><img src="img/sample1.jpg" width="300px" height="200px"></div>
             <div class="lec_title">제목</div>
@@ -60,8 +62,10 @@
             <div class="lec_des">#설명1 #설명2 #설명3</div>
         </div>
     </div>
+    	<div class="top_side">
+	    	<h3>둘러본 강의</h3>
+    	</div>
     <div id="lec_showen">
-    	<h3>둘러본 강의</h3>
         <div class="lec">
             <div class="lec_img"><img src="img/sample1.jpg" width="300px" height="200px"></div>
             <div class="lec_title">제목</div>
@@ -78,9 +82,13 @@
             <div class="lec_des">#설명1 #설명2 #설명3</div>
         </div>
     </div>
+    	<div class="top_side">
+	    	<h3>추천 강의</h3>
+    	</div>
+    	<div class="top_side">
+	    	<div><a class="mypage_a">더보기></a></div>
+    	</div>
     <div id="lec_reco">
-    	<h3>추천 강의</h3>
-    	더보기>
         <div class="lec">
             <div class="lec_img"><img src="img/sample1.jpg" width="300px" height="200px"></div>
             <div class="lec_title">제목</div>

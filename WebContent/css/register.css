@@ -1,0 +1,279 @@
+@font-face { font-family: 'Cafe24Simplehae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+* {
+    margin: 0px auto;
+    font-family: 'Cafe24Simplehae', sans-serif;
+}
+
+h1 > img {
+    width: 50px;
+    height: 50px;
+}
+
+/* 레퍼 ( nav, content 포함) */
+
+#register_wrapper {
+    width: 1200px;
+}
+
+/* nav */
+
+#register_nav {
+    width: 800px;
+    height: inherit;
+    float: left;
+    display: inline-block;
+}
+
+#register_nav > video {
+    padding: 15px 15px 15px 15px;
+    width: 774px;
+    height: 400px;
+}
+
+#register_nav > ul {
+    list-style: none;
+}
+
+#register_nav > ul li {
+    font-size: 18pt;
+    display: inline;
+    letter-spacing: 3px;
+}
+
+#register_nav > ul li a {
+    text-decoration: none;
+}
+
+#register_nav > ul li a:hover {
+    text-decoration: underline;
+}
+
+#lecture_info, #kit_info, #curri_info, #writer_info, #review_info, #qna_info {
+    display: inline;
+    padding-left: 10px;
+    background-color: orange;
+    font-size: 40px;
+}
+
+#lec {
+    text-align: left;
+    font-size: 12pt;
+    min-height: 350px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    white-space: pre-line;
+}
+
+.soap_img {
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+    width: 350px;
+    height: 250px;
+    float: left;
+}
+
+#box, #box2, #box3, #box4, #box5, #box6 {
+    margin: 15px;
+    padding: 15px;
+    width: 195px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    clear: both;
+}
+
+#register_tb {
+    margin: 15px;    
+    width: 750px;
+    font-weight: bold;
+    border-top: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+.tb_num {
+    color: orangered;
+}
+
+td {
+    border-bottom: 1px solid lightgray;
+    padding: 15px;
+}
+
+#wri {
+    padding: 15px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    white-space: pre-line;
+}
+
+#wri_name {
+    text-align: right;
+}
+
+#register_review {
+    text-align: left;
+    margin: 15px;
+    white-space: pre-line;
+}
+
+.review_name, .review_week {
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.review_week {
+    color: purple;
+}
+
+#register_review a {
+    text-decoration: none;
+    color: gray;
+    }
+
+#register_review a.on {
+    color: orange;
+    }
+
+input[type=date] {
+    border: none;
+    color: orange;
+}
+textarea {
+    margin: 10px;
+    margin-left: 0px;
+    border-radius: 5px;
+    width: 700px;
+}
+input[value=입력] {
+    position: relative;
+    bottom: 45px;
+    height: 78px;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    background-color: gray;
+}
+
+#content {
+    width: 375px;
+    height: 500px;
+    display: inline-block;
+    position: fixed;
+    top: 110px;
+}
+
+#content_title {
+	font-size: 40px;
+}
+
+.count_num {
+    color: orange;
+}
+
+#content > ul li {
+    display: inline-block;
+    background-color: darkgray;
+    font-weight: bold;
+    font-size: 15pt;
+    
+}
+
+#content .kit_select {
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+#content .kit_select:hover {
+    color: white;
+}
+
+#content .kit_info {
+    font-weight: bold;
+    float: right;
+}
+
+#content .kit_info:hover {
+    color: white;
+}
+
+#content #soap {
+    font-size: 15pt;
+    border-radius: 5px;
+    width: 250px;
+}
+
+#soap_title {
+	width: 100px;
+    padding: 3px;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: lightgray;
+    float: right;
+    position: relative;
+    text-align: center;
+}
+
+#soap_title:hover {
+    color: white;
+}
+
+.like_num {
+    position: relative;
+    top: 10px;
+    font-size: 12pt;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: gray;
+    
+}
+
+.like_num:hover {
+    color: red;
+}
+
+.lec_pick {
+    display: block;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: lightgray;
+    float: right;
+    width: 250px;
+    text-align: center;
+}
+
+#lec_register {
+    display: block;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: lightgray;
+    float: right;
+    width: 357px;
+    text-align: center;
+}
+
+.lec_pick:hover {
+    color: white;
+}
+
+#warning {
+    text-align: center;
+    color: orangered;
+}
+
+
+
+#lec_register:hover {
+    color: white;
+}
+

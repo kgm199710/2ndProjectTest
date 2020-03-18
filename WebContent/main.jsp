@@ -1,5 +1,117 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<style>
+		/* 메인_배너 파트 */
+.main_banner {
+	border: 1px solid black;
+	margin: 0 auto;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 60px;
+}
+
+/* 메인_카테고리 파트 */
+.main_category {
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.category_block i {
+	margin-bottom: 15px;
+}
+
+.category_block {
+	display: inline-block;
+	text-align: center;
+	margin: 0 15px 15px 15px;
+}
+
+.main_recommend {
+	margin: 0 30px 150px 30px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, 450px);
+	grid-gap: 40px;
+}
+
+.main_videos {
+	margin: 10px 30px 30px 30px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 210px);
+	grid-auto-flow: row dense;
+	grid-gap: 15px;
+	grid-row-gap: 60px;
+}
+
+/* 검색결과 파트 */
+.sort {
+	display: inline;
+	display: flex;
+	float: right;
+}
+.sort li select{
+	font-size: large;
+	margin-right: 30px;
+}
+.search_top {
+	margin: 15px 0 0 15px;
+	display: inline;
+}
+
+.search_result {
+	text-align: center;
+	display: grid;
+	margin: 10px 30px 30px 30px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 300px;
+	grid-gap: 40px;
+	margin-bottom: 100px; 
+}
+/* video 썸네일 파트 */
+.video_block {
+	border: 0.1px solid black;
+	text-align: justify;
+	margin-bottom: 50px;
+}
+
+.video_thumnail {
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+}
+
+.video_category {
+	display: block;
+	font-size: small;
+	margin: 10px 0 10px 0;
+}
+
+.video_uploader {
+	display: inline;
+	font-size: small;
+}
+
+.video_title {
+	display: inline;
+}
+
+.video_like {
+	font-size: small;
+	margin-top: 10px;
+}
+
+.video_like i {
+	color: red;
+}
+/* 1대1문의파트 */
+.contact {
+	position: sticky;
+	margin-left: 15px;
+	bottom: 200px;
+}
+	</style>
+	
 <div class="main_wrapper">
 	<div class="main_banner"></div>
 	<h2>카테고리</h2>

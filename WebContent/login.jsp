@@ -24,7 +24,7 @@
         <input type="password" name="pw" id="pw">
         <div id="info">
             <a id="find_id_pw" href="#">아이디/비밀번호 찾기</a>
-            <a id="register" href="#">회원가입</a>
+            <a id="register" href="create_new_member.jsp">회원가입</a>
         </div>
     </div>
     <div id="bottom">

@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%	String contents = request.getParameter("contents");
-%>
+<%	String contents = request.getParameter("contents");%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +10,7 @@
 	href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
 	integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
 	crossorigin="anonymous">
+	
 <meta charset="UTF-8">
 <title>Lecfly Home</title>
 </head>
@@ -29,10 +29,9 @@
 				<% } else{ %>
 				<%@ include file="main.jsp"%>
 				<%} %>
-				<%-- <%@ include file="search.jsp"%> --%>
 			</div>
 		</div>
-		
+
 		<div id="footer" class="footer">
 			<%@ include file="footer.jsp"%>
 		</div>
