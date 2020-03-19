@@ -2,20 +2,21 @@
     margin: 0px auto;
     padding: 0px;
     text-align: center;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
     color: black;
-}
-a:hover{
-    border-bottom: 1px solid aqua;
-    color: aqua;
+    border-bottom: 1px solid white;
 }
 
-
+.logo_link:hover{
+	color: none;
+	border-bottom: none;
+}
 
 body{
-	margin-top: 200px;
+	margin-top: 150px;
     border: 1px solid black;
     border-radius: 5px;
     width: 350px;
@@ -57,21 +58,30 @@ body{
 #register{
     float: right;
 }
+.link:hover{
+    border-bottom: 1px solid aqua;
+    color: aqua;
+}
 
 #bottom{
     
 }
 #login_btn{
     width: 100px;
-    height: 30px;
-    padding-top: 5px;   
+    height: 40px;
     background-color: orange;
+/*     margin-top: 10px; */
+	padding-top: 10px;
+}
+#login_btn a{
+	border-bottom: none;
 }
 #login_btn:hover{
     background-color: aqua;
 }
 #login_btn a:hover{
 	color: black;
+	border-bottom: none;
 }
 
 

@@ -1,37 +1,45 @@
 *{
     margin: 0px auto;
     padding: 0px;
-    text-align: center;
+/*     text-align: center; */
+/*     border: 1px solid black; */
+}
+h2{
+	
 }
 a{
     text-decoration: none;
     color: black;
 }
 li{
-    list-style: none;
+    LIST-STYLE: NONE;
 }
-label{
-    font-size: 18px;
-}
-li label{
-    padding-bottom: 10px;
-}
+/* label{ */
+/*     font-size: 20px; */
+/* } */
+/* li label{ */
+/*     padding-bottom: 10px; */
+/* } */
 input{
-    width: 500px;
+    width: 300px;
+    height: 30px;
     font-size: 18px;
 }
-
+.title{
+	font-size: 20px;
+}
 body{
     width: 500px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 div{
-    margin: 10px;
+    width: 500px;
+    padding-bottom: 20px;
 }
 
 #pro_pic{
-    margin: 10px;
+	text-align: center;
 }
 #pic{
     width: 150px;
@@ -39,30 +47,97 @@ div{
     border: 1px solid black;
 }
 
+/*  */
 #name{
     
 }
+#mb_name{
+	
+}
+
+/*  */
 #birthday{
     
 }
+#mb_birth{
+	
+}
+
+/*  */
 #gender{
     
 }
+#mb_f, #mb_m{
+	width: 10px;
+	height: 10px;
+}
+#mb_f{
+	
+}
+#mb_m{
+	
+}
+
+/*  */
 #login{
     
 }
+#mb_login{
+	
+}
+
+/*  */
 #pw{
     
 }
+#mb_pw{
+	
+}
+#mb_pw_confirm{
+	
+}
+
+/*  */
 #ph_number{
     
 }
+.mb_ph{
+	width: 60px;
+}
+#mb_ph_first{
+	
+}
+#mb_ph_second{
+	
+}
+
+/*  */
 #email{
     
 }
+#mb_email{
+	
+}
+
+/*  */
 #adress{
     
 }
+#mb_adress_num{
+	wdith: 350px;
+}
+#mb_adress_basic{
+	
+}
+#mb_adress_detail{
+	
+}
+
+/*  */
 #submit_btn{
     
 }
+
+
+
+

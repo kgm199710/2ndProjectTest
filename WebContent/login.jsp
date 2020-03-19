@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<link type="text/css" rel="stylesheet" href="css/login.css">
 <html lang="">
 <head>
 	<meta charset="utf-8">
@@ -16,15 +15,15 @@
 
 <body>
     <div id="top">
-        <h2 id="title">LecFly</h2>
+        <h2 id="title"><a href="lecfly_home.jsp" class="logo_link"><img src="img/KakaoTalk_20200314_130822454_04.png" ></a></h2>
         <h3 id="sub_title">로그인</h3>
     </div>
     <div id="middle">
         <input type="text" placeholder="ID를 입력하세요" name="login" id="login">
         <input type="password" name="pw" id="pw">
         <div id="info">
-            <a id="find_id_pw" href="#">아이디/비밀번호 찾기</a>
-            <a id="register" href="create_new_member.jsp">회원가입</a>
+            <a id="find_id_pw" class="link" href="#">아이디/비밀번호 찾기</a>
+            <a id="register" class="link" href="create_new_member.jsp">회원가입</a>
         </div>
     </div>
     <div id="bottom">

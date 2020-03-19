@@ -13,6 +13,7 @@ a{
 }
 .title{
     display: inline-block;
+    font-size: 24px;
 }
 .top_right{
     float: right;
@@ -116,22 +117,25 @@ a{
 }
 .lec{
     border: 1px solid black;
-    height: 170px;
+    height: 340px;
     /*margin: 20px;*/
     display: inline-block;
+	box-sizing: border-box;
 }
 .lec_img{
-    border: 1px solid black;
+/*     border: 1px solid black; */
     height: 200px;
 }
 .lec_title{
     border: 1px solid black;
-    height: 70px
+    height: 20px;
     font-size: 18px;
+    padding: 20px;
 }
 .lec_des{
     border: 1px solid black;
-    height: 70px;
+    height: 50px;
+    padding-top: 25px;
 }
 .top_side h3{
 	float: left;
